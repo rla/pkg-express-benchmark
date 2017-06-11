@@ -1,6 +1,6 @@
 # pkg-express-benchmark
 
-A benchmark to test the performance of a [PKG][pkg]-packaged Express.js
+A benchmark to test the performance of a [pkg][pkg]-packaged Express.js
 application. The application generates random data and produces an HTML
 page from it using the EJS templating engine.
 
