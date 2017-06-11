@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <% include head %>
+    <body>
+        <h1><%= title %></h1>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Post count</th>
+            </tr>
+            <% users.forEach((user) => { %>
+                <tr>
+                    <td><%= user.name %></td>
+                    <td><%= user.email %></td>
+                    <td><%= user.phone %></td>
+                    <td><%= user.post_count %></td>
+                </tr>
+            <% }); %>
+        </table>
+    </body>
+</html>
